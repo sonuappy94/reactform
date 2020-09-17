@@ -13,7 +13,7 @@ class NameForm extends Component {
     }
 
     handleSubmit(a){
-        alert('An essay was submitted:' + this.state.value);
+        alert('Your input was submitted:' + this.state.value);
         a.preventDefault();
     }
 
